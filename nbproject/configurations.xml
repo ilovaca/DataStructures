@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f3" displayName="common_structures" projectFiles="true">
+        <itemPath>Node.h</itemPath>
+        <itemPath>linked_list.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="Exceptions" projectFiles="true">
+        <itemPath>ElementExistsException.cpp</itemPath>
+        <itemPath>ElementExistsException.h</itemPath>
+        <itemPath>empty_container.h</itemPath>
+        <itemPath>no_such_element.cpp</itemPath>
+        <itemPath>no_such_element.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="graph" projectFiles="true">
+        <itemPath>graph.h</itemPath>
+        <itemPath>graph_node.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="hash_table" projectFiles="true">
+        <itemPath>bucket.h</itemPath>
+        <itemPath>hash_table.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="heap" projectFiles="true">
+        <itemPath>heap.h</itemPath>
+        <itemPath>heap_array_impl.cpp</itemPath>
+        <itemPath>heap_array_impl.h</itemPath>
+        <itemPath>node.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="queue" projectFiles="true">
+        <itemPath>queue.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="shared_ptr" projectFiles="true">
+        <itemPath>ref_counter.h</itemPath>
+        <itemPath>shared_p.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="stack" projectFiles="true">
+        <itemPath>stack_array_impl.h</itemPath>
+        <itemPath>stack_interface.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="ElementExistsException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ElementExistsException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bucket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="empty_container.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graph_node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hash_table.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="heap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="heap_array_impl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="heap_array_impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linked_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="no_such_element.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="no_such_element.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ref_counter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shared_p.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stack_array_impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stack_interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="ElementExistsException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ElementExistsException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bucket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="empty_container.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graph_node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hash_table.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="heap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="heap_array_impl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="heap_array_impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linked_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="no_such_element.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="no_such_element.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ref_counter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shared_p.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stack_array_impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stack_interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
