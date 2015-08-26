@@ -29,13 +29,7 @@ int main(int argc, char** argv) {
     hp.push(7);
     hp.push(20);
      */
-    //    std::cout << hp.top() << std::endl;
 
-    //    hp.print();
-
-    //    hp.pop();
-    //    std::cout<<std::endl;
-    //    hp.print();
     graph<int> my_graph;
     my_graph.add_node(1);
     my_graph.add_node(1);
